@@ -15,6 +15,7 @@ Hatoに関するドキュメントを掲載しています。
 #### Hato（フロントエンド）
 
 - [Hato フロントエンドの概要](hato_front/index.md)
+- [Hato フロントエンド環境構築](hato_front/setup.md)
 
 #### Hato（バックエンド）
 
