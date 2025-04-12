@@ -119,12 +119,12 @@ docker compose -f compose.production.yml --env-file .env.production -p hatoapi-p
 ```bash
 ❯ docker compose -f compose.production.yml --env-file .env.production -p hatoapi-prod up -d
 [+] Running 6/6
- ✔ Network hatoapi-prod_default          Created                                                                  0.0s 
- ✔ Container hatoapi-prod-mongo-1        Started                                                                  6.5s 
- ✔ Container hatoapi-prod-redis-1        Started                                                                  6.3s 
- ✔ Container hatoapi-prod-api-1          Started                                                                 1###4s 
- ✔ Container hatoapi-prod-push-server-1  Started                                                                 12.0s 
- ✔ Container hatoapi-prod-crawler-1      Started                                                                 10.0s 
+ ✔ Network hatoapi-prod_default          Created                                                      0.0s 
+ ✔ Container hatoapi-prod-mongo-1        Started                                                      6.5s 
+ ✔ Container hatoapi-prod-redis-1        Started                                                      6.3s 
+ ✔ Container hatoapi-prod-api-1          Started                                                     11.4s 
+ ✔ Container hatoapi-prod-push-server-1  Started                                                     12.0s 
+ ✔ Container hatoapi-prod-crawler-1      Started                                                     10.0s 
 ```
 
 ### データベースの復元
